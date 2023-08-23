@@ -2,7 +2,7 @@
   "name": "pc-builder",
   "version": "1.0.0",
   "description": "Arfatur Rahman pc builder",
-  "main": "index.js",
+  "main": "src/server.ts",
   "author": "Arfatur Rahman",
   "license": "MIT",
   "lint-staged": {
@@ -13,6 +13,7 @@
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:fix": "eslint . --fix",
     "dev": "nodemon index.js",
+    "build": "webpack-cli app.tsx --config webpack-config.js",
     "prettier:fix": "prettier --write .",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint-prettier": "yarn lint:check && yarn prettier:check"
