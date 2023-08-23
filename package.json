@@ -13,7 +13,7 @@
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:fix": "eslint . --fix",
     "dev": "nodemon index.js",
-    "build": "webpack-cli app.tsx --config webpack-config.js",
+    "build": "webpack-cli src/server.ts --config webpack-config.js",
     "prettier:fix": "prettier --write .",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint-prettier": "yarn lint:check && yarn prettier:check"
