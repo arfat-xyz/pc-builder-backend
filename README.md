@@ -1,3 +1,9 @@
+# Project links
+
+- Live link: https://pcinnovatehub.vercel.app/
+- Frontend code: https://github.com/arfat-xyz/PCInnovateHub
+- Backend code: https://github.com/arfat-xyz/pc-builder-backend
+
 ## Project details
 
 - Create backend and get data from backend
